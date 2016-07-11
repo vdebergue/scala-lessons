@@ -1,6 +1,6 @@
 package julienrf.course
 
-object Typeclasses {
+object wTypeclasses {
 
   /**
    * Implement the following generic `sum` method
