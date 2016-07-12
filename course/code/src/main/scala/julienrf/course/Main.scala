@@ -44,10 +44,10 @@ object Main extends App {
   // draw(spiral(8))
   // draw(spiral(10))
 
-  draw(sierpinski(1))
-  draw(sierpinski(2))
-  draw(sierpinski(3))
-  draw(sierpinski(5))
+  // draw(sierpinski(1))
+  // draw(sierpinski(2))
+  // draw(sierpinski(3))
+  // draw(sierpinski(5))
 
   // --- Exercises
 
@@ -73,7 +73,7 @@ object Main extends App {
     }
   }
 
-  draw(sierpinski(5))
+  // draw(sierpinski(5))
 
   sealed trait FitnessDevice
   case class Barbell(load: Int, lenght: Int) extends FitnessDevice
@@ -85,7 +85,7 @@ object Main extends App {
   }
 
   val gymImage = fitnessDeviceImage(Barbell(10,100)) on fitnessDeviceImage(Mat(200, 300))
-  draw(gymImage)
+  // draw(gymImage)
 
   sealed trait Niveau
   object Niveau {

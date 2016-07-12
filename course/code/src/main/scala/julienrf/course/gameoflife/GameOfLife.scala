@@ -1,8 +1,8 @@
 package julienrf.course.gameoflife
 
-import doodle.core.{Image}
+import doodle.core._
 
-object GameOfLife extends App {
+object GameOfLife {
 
   start(10)
 
@@ -24,4 +24,8 @@ object GameOfLife extends App {
 
 case class World() {
   def next: World = ???
+}
+
+object World {
+
 }
