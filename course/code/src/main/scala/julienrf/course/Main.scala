@@ -7,7 +7,7 @@ import doodle.jvm._
 object Main extends App {
 
   // game of life
-  gameoflife.GameOfLife.start(10)
+  gameoflife.GameOfLife.start(100)
 
 
   val xs= 1 to 10
@@ -84,7 +84,7 @@ object Main extends App {
     case Mat(width, heigth) => Rectangle(width, heigth) fillColor Color.blue
   }
 
-  val gymImage = fitnessDeviceImage(Barbell(10,100)) on fitnessDeviceImage(Mat(200, 300))
+  // val gymImage = fitnessDeviceImage(Barbell(10,100)) on fitnessDeviceImage(Mat(200, 300))
   // draw(gymImage)
 
   sealed trait Niveau
@@ -94,6 +94,7 @@ object Main extends App {
     case object Difficile extends Niveau
   }
   case class Cours(nom: String, niveau: Niveau)
+
   val scala = Cours("Scala", Niveau.Facile)
 
 }
