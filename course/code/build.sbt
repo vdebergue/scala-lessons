@@ -1,6 +1,6 @@
 name := "scala-course"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.11"
 
 resolvers += "Underscore Training" at "https://dl.bintray.com/underscoreio/training"
 
