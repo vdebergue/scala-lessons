@@ -11,3 +11,5 @@ initialCommands in console := """
   |import doodle.syntax._
   |import doodle.jvm._
 """.trim.stripMargin
+
+Global/cancelable := true
